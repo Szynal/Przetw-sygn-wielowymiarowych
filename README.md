@@ -2,7 +2,7 @@
  PWR - 2 semestr - MGR
 
 
-# Teoria - z wykładu
+# Teoria z wykładu
 
 ## Czym jest cyfrowe przetwarzanie sygnału 
 
@@ -22,6 +22,9 @@ Powyższa funkcja jest funkcją ciągłą. Mając do czynienia z obrazem cyfrowy
 Pojęcie pikselu co do zasadny to skrót zawierający w sobie słowa ,, picutre elements''. Na początku powstał konflikt, ponieważ wedle analityków grafiki komputerowej podstawowym elementem obrazu jest jakiś prymityw, który ten obraz buduje (kwadrat, okrą, linia). Niemniej jednak środowisko inżynierskie z czasem przyjęło to pojęcie.
 
 
+###  Alternatywne ścieżki pozysykiwania obrazu (inne niż np.kamera)
+
+Są niezaskakujące, ale nie do końca intuicyjnie. Ponieważ echosonda zwana sonografem również służy do pozyskania obrazu. Obraz nie musi opierać się na promieniowaniu elektromagnetycznym. Obraz cyfrowy istnieje w momencie, w którym dysponujemy przestrzenią, którą możemy spróbować (nie musi ograniczać się do pasm wizyjnych!)
 
 
 
