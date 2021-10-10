@@ -41,3 +41,16 @@ Wejście nadal jest obrazem, ale wyjście jest już pewnym opisem obrazu. Czyli 
 
 Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które służą do tego, aby dostać obraz na samym początku, ale na końcu podjąć wobec niego jakąś decyzję. Najbardziej powszechnym i modnym obecnie przykładem są głębokie sieci konwolucyjne służące do klasyfikacji bądź regresji (rozwiązują złożone problemy które są reprezentowane przez obrazy)
 
+## Czynności przetwarzania obrazów
+
+1 poziom. Akwizycja obrazu (próbkowanie, kwantyzacja, modalność)
+2 poziom. Wzmacnianie obrazu (np. kontrast, pozbywanie się zanieczyszczeń)
+3 poziom. Odtwarzanie obrazu (np. uzupełnianie ubytków w obrazie, wykorzystując elementry zanajdujące się na obrazie).
+4 poziom. Obrazy barwne. (interpretacja jako tensor)
+5 poziom. Przekształcenie morfologiczne (W przekształceniach morfologicznych pozwalają nam na dokonywanie dowolnych przekształceniach geometrycznych obrazu. np możemy wyliczyć sobie miejsce, w którym znalazłby się piksel obrazu, gdyby obraz zostałby pochylony/przeskalowany )
+
+
+
+
+
+
