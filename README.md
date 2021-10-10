@@ -26,5 +26,19 @@ Pojęcie pikselu co do zasadny to skrót zawierający w sobie słowa ,, picutre 
 
 Są niezaskakujące, ale nie do końca intuicyjnie. Ponieważ echosonda zwana sonografem również służy do pozyskania obrazu. Obraz nie musi opierać się na promieniowaniu elektromagnetycznym. Obraz cyfrowy istnieje w momencie, w którym dysponujemy przestrzenią, którą możemy spróbować (nie musi ograniczać się do pasm wizyjnych!)
 
+## Dziedziny przetwarzania obrazu.
+
+### Niskopoziomowe przetwarzanie obrazu.
+W przypadku niskopoziomowego przetwarzania obrazu zawsze wejściem i wyjściem przetwarzanego obrazu jest obraz. Przykładem niskiego przetwarzania obrazu jest np. filtracja częstotliwościowa, która na wejściu dostaję zaburzony obraz, a na wyjściu dostaje obraz, który został odszumiony. Każda operacja, która prowadzi do tego, aby uzyskać inny obraz (np. dodanie do siebie dwóch obrazów) będzie w obszarze niskopoziomowego przetwarzania obrazy.
+
+
+### Średniopoziomowe przetwarzanie obrazu.
+
+
+
+
+
+
+
 
 
