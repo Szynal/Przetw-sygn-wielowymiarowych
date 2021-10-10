@@ -2,7 +2,7 @@
  PWR - 2 semestr - MGR
 
 
-# TORIA - z wykładu
+# Teoria - z wykładu
 
 ## Czym jest cyfrowe przetwarzanie sygnału 
 
