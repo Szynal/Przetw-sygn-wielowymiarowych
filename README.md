@@ -34,11 +34,10 @@ W przypadku niskopoziomowego przetwarzania obrazu zawsze wejściem i wyjściem p
 
 ### Średniopoziomowe przetwarzanie obrazu.
 
+Wejście nadal jest obrazem, ale wyjście jest już pewnym opisem obrazu. Czyli niekoniecznie musi być już obrazem. Są tutaj wszystkie metody ekstrakcji atrybutów. Są w tym obszarze wszystkie metody, które służą do wykrywania kluczowych punktów w obrazie (np. tutaj jest okrąg, a tutaj jest coś, co wygląda jak narożnik budynku).
 
 
+### Wysokopoziomowe przetwarzanie obrazu (Machine Vision)
 
-
-
-
-
+Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które służą do tego, aby dostać obraz na samym początku, ale na końcu podjąć wobec niego jakąś decyzję. Najbardziej powszechnym i modnym obecnie przykładem są głębokie sieci konwolucyjne służące do klasyfikacji bądź regresji (rozwiązują złożone problemy które są reprezentowane przez obrazy)
 
