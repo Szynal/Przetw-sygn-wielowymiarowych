@@ -1,6 +1,9 @@
 # Przetw-sygn-wielowymiarowych
  PWR - 2 semestr - MGR
 
+# Table of Contents
+* [Teoria z wykładu](# Teoria z wykładu)
+* [## Pojęcie obrazu cyfrowego](## Pojęcie obrazu cyfrowego)
 
 # Teoria z wykładu
 
