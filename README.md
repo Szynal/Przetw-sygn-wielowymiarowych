@@ -50,7 +50,9 @@ Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które
 * 2 poziom. Wzmacnianie obrazu (np. kontrast, pozbywanie się zanieczyszczeń)
 * 3 poziom. Odtwarzanie obrazu (np. uzupełnianie ubytków w obrazie, wykorzystując elementry zanajdujące się na obrazie).
 * 4 poziom. Obrazy barwne. (interpretacja jako tensor)
-* 5 poziom. Przekształcenie morfologiczne (W przekształceniach morfologicznych pozwalają nam na dokonywanie dowolnych przekształceniach geometrycznych obrazu. np możemy wyliczyć sobie miejsce, w którym znalazłby się piksel obrazu, gdyby obraz zostałby pochylony/przeskalowany )
+* 5 poziom. Przekształcenie morfologiczne (baza przekształceń konwolucyjnych)
+* 6 poziom. Segmentacja obrazu.
+* 7 poziom. Rozpoznawanie obiektów.
 
 
 
