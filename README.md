@@ -24,6 +24,13 @@ Powyższa funkcja jest funkcją ciągłą. Mając do czynienia z obrazem cyfrowy
 ### Piksel (ang. pixel)
 Pojęcie pikselu co do zasadny to skrót zawierający w sobie słowa ,, picutre elements''. Na początku powstał konflikt, ponieważ wedle analityków grafiki komputerowej podstawowym elementem obrazu jest jakiś prymityw, który ten obraz buduje (kwadrat, okrą, linia). Niemniej jednak środowisko inżynierskie z czasem przyjęło to pojęcie.
 
+### Wykład I (inne)
+Podstawowy sensor do odczytywania obrazu - oczy
+Obraz cyfrowy musi być dyksrety! 
+
+Inne sensory pozwalające na uzyskanie obrazu:
+ * Aparat cefrowy (matryca CCD)
+ * Soner
 
 ###  Alternatywne ścieżki pozysykiwania obrazu (inne niż np.kamera)
 
@@ -54,7 +61,9 @@ Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które
 * 6 poziom. Segmentacja obrazu.
 * 7 poziom. Rozpoznawanie obiektów.
 
+# Wykład II 
 
+W "numpy" obraz jest reprezentowany obraz w skali szarości w macierzy 2D.
 
 
 
