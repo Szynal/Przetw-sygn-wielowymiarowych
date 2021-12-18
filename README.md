@@ -70,30 +70,60 @@ Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które
 
 "Kiedy odbieramy barwy to obieramy jako przekształcenie 3D infomacji naszego oka który ma 2 wymiary przestrzenne i jeden wymiar długości fali i spłaszczamy go przy użyciu wektoraj"
 
+## Interpolacja
 Interpolacja jest to metoda numeryczna, która polega na wyznaczaniu przybliżonych wartości tzw. funkcji interpolacyjnej w danym przedziale, która przyjmuje z góry zadane wartości, w ustalonych punktach nazywanych węzłami.
+
+## Przepróbkowanie 
+Przepróbkowanie (Resampling)- rtansformacja sygnału jedno-lub wielowymiarowego polegająca na utworzeniu nowych próbek wyjściowych na podstawie już istniejących próbek wejściowych, pozwalająca na zmianę częstotliwości próbkowania.
 
 W "numpy" obraz jest reprezentowany obraz w skali szarości w macierzy 2D, zaś barwny w macierzy 3D. 
 Wymiary macierzy to szerokość x wysokość x 3 (nie zawsze jest 3, możemy mieć 7 a nawet 200. ~ mogą być kamery wielowidmowe/nadwidmowe)
 Adresowanie 
 
-# Coś o ludzkim oku i widzeniu 
+###  Coś o ludzkim oku i widzeniu 
 
 "Dlaczego plamka ślepa nie widzi? :) Nie ma czopków ani pręcików. Jest to wejście nerwu wzorkowego."  \
 
-# Widzenie monochromatyczne 
+###  Widzenie monochromatyczne 
 Monochromatyzm, także: monochromacja (ang. monochromacy) – całkowita niezdolność do rozpoznawania barw - całkowitym zniesieniem widzenia barw. 
 
-# Widzenie Fotopowe i mezopowe 
+###  Widzenie Fotopowe i mezopowe 
 
 Widzenie mezopowe, widzenie zmierzchowe – termin oznaczający pracę ludzkiego narządu wzroku w warunkach przejściowych, czyli przy niedostatecznej ilości światła. W odbieraniu bodźców świetlnych biorą udział wtedy zarówno czopki (działające przy dobrym oświetleniu i zapewniające widzenie barwne), jak i pręciki (działające przy niedostatecznym oświetleniu i dające jedynie możliwość widzenia achromatycznego).
 
-# Widzenie mezopowe 
+###  Widzenie mezopowe 
 
 Widzenie mezopowe jest stanem pośrednim pomiędzy widzeniem w normalnych warunkach oświetleniowych, zwanym widzeniem fotopowym, a postrzeganiem świata wyłącznie w barwach szarości, gdy światła jest bardzo mało, zwanym widzeniem skotopowym.
 
-# Pasma Macha
+###  Pasma Macha
 
 Pasmo Macha (efekt pasm Macha, wstęga Macha) – odkryta w 1865 przez Ernsta Macha właściwość wzroku ludzkiego, która objawia się dostrzeganiem nieistniejących pasm i zmiany jasności sąsiednich obszarów różniących się znacznie jasnością.
 
-# Konwolucja czyli połączenie dwóch funkcji
+###  Konwolucja czyli połączenie dwóch funkcji
+
+w numpy cipy.signal.convolve.
+
+##  Iluminacja i Reflektancja 
+
+Obraz jest iloczynem  dwóch wartości. (I) Iluminacji i (R) Reflektancji/ Transmutacją 
+
+# Akwizycja obrazu cyfrowego 
+
+Aby zrealizować akwizycję obrazu cyuforwego. najwpierw musimy dysponować sensorem zdolnym zdobyć informację przestrzenną. W momencie w którym realiuzujemy skowanie w której określonej częstotilowści będziemy go zapisywać to prubkowanie. Po prubklowanie realizujemy kwantyzację. 
+
+## Kwantyzacja
+
+Polega na podziale zakresu wartosci jasnosci na przedziały i przypisaniu każdemu punktowi wybranej wartosci dyskretnej.
+
+Najpopularniejszym standardem jest  True color (2^24, czyli 16.777.216 kolorów). 
+Mimo że w tym trybie do określenia koloru piksela wystarczą 24 bity, to najczęściej każdy kolor jest zapisywany na 32 bitach, czyli 4 bajtach. Te dodatkowe 8 bitów jest albo nieużywane, albo określa poziom przezroczystości piksela, czyli kanał alfa.
+
+
+Ile kanałów intensywnbości obrazu mamy :
+8 bitowych mamy 2
+Zakres 0 - 255 (zakres dynamiczny)
+
+Na ilu bitach infomacja jest zapisywana  - 24 
+Ile mamy kanałów barw - 3 
+
 
