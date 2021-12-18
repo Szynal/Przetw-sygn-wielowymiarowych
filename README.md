@@ -71,7 +71,9 @@ Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które
 "Kiedy odbieramy barwy to obieramy jako przekształcenie 3D infomacji naszego oka który ma 2 wymiary przestrzenne i jeden wymiar długości fali i spłaszczamy go przy użyciu wektoraj"
 
 ## Interpolacja
-Interpolacja jest to metoda numeryczna, która polega na wyznaczaniu przybliżonych wartości tzw. funkcji interpolacyjnej w danym przedziale, która przyjmuje z góry zadane wartości, w ustalonych punktach nazywanych węzłami.
+Interpolacja jest to metoda numeryczna, która polega na wyznaczaniu przybliżonych wartości tzw. funkcji interpolacyjnej w danym przedziale, która przyjmuje z góry zadane wartości, w ustalonych punktach nazywanych węzłami. (np. interrpolacja liniowa)
+
+## Rodzaje interpolacji
 
 ## Przepróbkowanie 
 Przepróbkowanie (Resampling)- rtansformacja sygnału jedno-lub wielowymiarowego polegająca na utworzeniu nowych próbek wyjściowych na podstawie już istniejących próbek wejściowych, pozwalająca na zmianę częstotliwości próbkowania.
@@ -125,5 +127,31 @@ Zakres 0 - 255 (zakres dynamiczny)
 
 Na ilu bitach infomacja jest zapisywana  - 24 
 Ile mamy kanałów barw - 3 
+
+# Sąsiedztwa 
+W przetwarzaniu obrazów binarnych ważne jest określenie, kiedy dwa piksele sąsiadują ze sobą. W tym celu definiuje się dla każdego piksela jego sąsiedztwo.
+
+
+## Sąsiedztwo otwarte / zamknięte 
+
+Sasiedztwo zamknięte zawiera piksel zaś sąsiedztwo otwarte nie zawiera go.
+
+## Sąsiedztwo 4 - spójne (von Neumanna) 
+
+Obejmuje cztery piksele przyległe do danego z góry, dołu i po bokach
+ 
+##  Sąsiedztwo 8 - spójne (Moore’a) 
+
+
+# Operacje morfologiczne
+
+
+Przekształcenia morfologiczne cyfrowych obrazów, to takie przekształcenia, w wyniku których struktura lub forma obiektu na obrazie zostaje zmieniona.
+
+* Erozja
+* Dylatacja
+* Otwarcie i zamknięcie
+
+# Metryki 
 
 
