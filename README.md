@@ -51,6 +51,11 @@ Wejście nadal jest obrazem, ale wyjście jest już pewnym opisem obrazu. Czyli 
 
 Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które służą do tego, aby dostać obraz na samym początku, ale na końcu podjąć wobec niego jakąś decyzję. Najbardziej powszechnym i modnym obecnie przykładem są głębokie sieci konwolucyjne służące do klasyfikacji bądź regresji (rozwiązują złożone problemy które są reprezentowane przez obrazy)
 
+
+"To jest wykorzystanie pewnych atrybutów wejściowych obrazów, aby system wizyjny mógł stać się zdolnym do podejmowania decyzji i rozumienia tych obrazów."
+"Różnicą pomiędzy wysokopoziomym a średniopoziomym p.o jest wyjście. W przypadku wysokopoziomowego wyjściem jest atrybuty, w drugim jest obraz"
+
+
 ## Czynności przetwarzania obrazów
 
 * 1 poziom. Akwizycja obrazu (próbkowanie, kwantyzacja, modalność)
@@ -63,8 +68,32 @@ Tutaj są wszystkie metody wykorzystujące modele rozpoznawania wzorców, które
 
 # Wykład II 
 
-W "numpy" obraz jest reprezentowany obraz w skali szarości w macierzy 2D.
+"Kiedy odbieramy barwy to obieramy jako przekształcenie 3D infomacji naszego oka który ma 2 wymiary przestrzenne i jeden wymiar długości fali i spłaszczamy go przy użyciu wektoraj"
 
+Interpolacja jest to metoda numeryczna, która polega na wyznaczaniu przybliżonych wartości tzw. funkcji interpolacyjnej w danym przedziale, która przyjmuje z góry zadane wartości, w ustalonych punktach nazywanych węzłami.
 
+W "numpy" obraz jest reprezentowany obraz w skali szarości w macierzy 2D, zaś barwny w macierzy 3D. 
+Wymiary macierzy to szerokość x wysokość x 3 (nie zawsze jest 3, możemy mieć 7 a nawet 200. ~ mogą być kamery wielowidmowe/nadwidmowe)
+Adresowanie 
 
+# Coś o ludzkim oku i widzeniu 
+
+"Dlaczego plamka ślepa nie widzi? :) Nie ma czopków ani pręcików. Jest to wejście nerwu wzorkowego."  \
+
+# Widzenie monochromatyczne 
+Monochromatyzm, także: monochromacja (ang. monochromacy) – całkowita niezdolność do rozpoznawania barw - całkowitym zniesieniem widzenia barw. 
+
+# Widzenie Fotopowe i mezopowe 
+
+Widzenie mezopowe, widzenie zmierzchowe – termin oznaczający pracę ludzkiego narządu wzroku w warunkach przejściowych, czyli przy niedostatecznej ilości światła. W odbieraniu bodźców świetlnych biorą udział wtedy zarówno czopki (działające przy dobrym oświetleniu i zapewniające widzenie barwne), jak i pręciki (działające przy niedostatecznym oświetleniu i dające jedynie możliwość widzenia achromatycznego).
+
+# Widzenie mezopowe 
+
+Widzenie mezopowe jest stanem pośrednim pomiędzy widzeniem w normalnych warunkach oświetleniowych, zwanym widzeniem fotopowym, a postrzeganiem świata wyłącznie w barwach szarości, gdy światła jest bardzo mało, zwanym widzeniem skotopowym.
+
+# Pasma Macha
+
+Pasmo Macha (efekt pasm Macha, wstęga Macha) – odkryta w 1865 przez Ernsta Macha właściwość wzroku ludzkiego, która objawia się dostrzeganiem nieistniejących pasm i zmiany jasności sąsiednich obszarów różniących się znacznie jasnością.
+
+# Konwolucja czyli połączenie dwóch funkcji
 
